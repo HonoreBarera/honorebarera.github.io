@@ -41,7 +41,7 @@ if (lang == "en") {
     days = ["Ming", "Sen", "Sel", "Rab", "Kam", "Jum", "Sab"];
 } else if (lang == "fr") {
     months = ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"];
-    days = ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"];
+    days = ["dim", "lun", "mar", "mer", "jeu", "ven", "sam"];
 } else {
     months = monthDefault;
     days = dayDefault;
