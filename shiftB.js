@@ -1196,6 +1196,138 @@ function showCalendarB(month, year) {
                     cell.className = "highlighted-dayshift";
                 }
 
+                // AVRIL 2024 30
+
+                // nightshift
+                if (year === 2024 && month === 3
+                && date === 3) { 
+                    cell.className = "highlighted-nightshift";
+                }
+                if (year === 2024 && month === 3
+                && date === 4) { 
+                    cell.className = "highlighted-nightshift";
+                }
+                if (year === 2024 && month === 3
+                && date === 5) { 
+                    cell.className = "highlighted-nightshift";
+                }
+                if (year === 2024 && month === 3
+                && date === 15) { 
+                    cell.className = "highlighted-nightshift";
+                }
+                if (year === 2024 && month === 3
+                && date === 16) { 
+                    cell.className = "highlighted-nightshift";
+                }
+                if (year === 2024 && month === 3
+                && date === 17) { 
+                    cell.className = "highlighted-nightshift";
+                }
+                if (year === 2024 && month === 3
+                && date === 24) { 
+                    cell.className = "highlighted-nightshift";
+                }
+                if (year === 2024 && month === 3
+                && date === 25) { 
+                    cell.className = "highlighted-nightshift";
+                }
+                if (year === 2024 && month === 3
+                && date === 30) { 
+                    cell.className = "highlighted-nightshift";
+                }
+
+                // restdays
+                if (year === 2024 && month === 3
+                && date === 6) { 
+                    cell.className = "highlighted-days";
+                }
+                if (year === 2024 && month === 3
+                && date === 7) { 
+                    cell.className = "highlighted-days";
+                }
+                if (year === 2024 && month === 3
+                && date === 8) { 
+                    cell.className = "highlighted-days";
+                }
+                if (year === 2024 && month === 3
+                && date === 15) { 
+                    cell.className = "highlighted-days";
+                }
+                if (year === 2024 && month === 3
+                && date === 16) { 
+                    cell.className = "highlighted-days";
+                }
+                if (year === 2024 && month === 3
+                && date === 17) { 
+                    cell.className = "highlighted-days";
+                }
+                if (year === 2024 && month === 3
+                && date === 24) { 
+                    cell.className = "highlighted-days";
+                }
+                if (year === 2024 && month === 3
+                && date === 25) { 
+                    cell.className = "highlighted-days";
+                }
+                if (year === 2024 && month === 3
+                && date === 26) { 
+                    cell.className = "highlighted-days";
+                }
+                if (year === 2024 && month === 3
+                && date === 28) { 
+                    cell.className = "highlighted-days";
+                }
+                if (year === 2024 && month === 3
+                && date === 29) { 
+                    cell.className = "highlighted-days";
+                }
+                if (year === 2024 && month === 3
+                && date === 29) { 
+                    cell.className = "highlighted-days";
+                }
+
+                // dayshift
+                if (year === 2024 && month === 3
+                && date === 1) { 
+                    cell.className = "highlighted-dayshift";
+                }
+                if (year === 2024 && month === 3
+                && date === 2) { 
+                    cell.className = "highlighted-dayshift";
+                }
+                if (year === 2024 && month === 3
+                && date === 5) { 
+                    cell.className = "highlighted-dayshift";
+                }
+                if (year === 2024 && month === 3
+                && date === 12) { 
+                    cell.className = "highlighted-dayshift";
+                }
+                if (year === 2024 && month === 3
+                && date === 13) { 
+                    cell.className = "highlighted-dayshift";
+                }
+                if (year === 2024 && month === 3
+                && date === 14) { 
+                    cell.className = "highlighted-dayshift";
+                }
+                if (year === 2024 && month === 3
+                && date === 21) { 
+                    cell.className = "highlighted-dayshift";
+                }
+                if (year === 2024 && month === 3
+                && date === 22) { 
+                    cell.className = "highlighted-dayshift";
+                }
+                if (year === 2024 && month === 3
+                && date === 23) { 
+                    cell.className = "highlighted-dayshift";
+                }
+                if (year === 2024 && month === 3
+                && date === 30) { 
+                    cell.className = "highlighted-dayshift";
+                }
+
 
 
 
