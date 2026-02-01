@@ -154,54 +154,54 @@ function showCalendarB(month, year) {
 ////////////////////////////////////////////////////////////////////////////////
               // JANVIER 2025 //31 days
               // nightshift // one day forward
-              const janNights = [5,6,7,14,15,16,23,24,25] // commence le 7
-              if (year === 2025 && month === 0 && janNights.includes(date)){
-                  cell.className = "highlighted-dayshift"
-              }
-              // off
-              const janOffs = [1,8,9,10,17,18,19,26,27,28]
-              if (year === 2025 && month === 0 && janOffs.includes(date)){
+              const janNights = [4,5,6,13,14,15,22,23,24,31] // commence le 7
+              if (year === 2026 && month === 0 && janNights.includes(date)){
                   cell.className = "highlighted-nightshift"
               }
-              // dayshifts
-              const janDays = [2,3,4,11,12,13,20,21,22,29,30,31]
-              if (year === 2025 && month === 0 && janDays.includes(date)){
+              // off
+              const janOffs = [7,8,9,16,17,18,25,26,27]
+              if (year === 2026 && month === 0 && janOffs.includes(date)){
                   cell.className = "highlighted-days"
+              }
+              // dayshifts
+              const janDays = [1,2,3,10,11,12,19,20,21,28,29,30]
+              if (year === 2026 && month === 0 && janDays.includes(date)){
+                  cell.className = "highlighted-dayshift"
               }
 ////////////////////////////////////////////////////////////////////////////////
               // FEVRIER 2025 //28 days
               // nightshift 
-              const febNights = [1,2,3,10,11,12,19,20,21,28]
-              if (year === 2025 && month === 1 && febNights.includes(date)){
-                  cell.className = "highlighted-dayshift"
-              }
-              // off
-              const febOffs = [4,5,6,13,14,15,22,23,24]
-              if (year === 2025 && month === 1 && febOffs.includes(date)){
+              const febNights = [1,2,9,10,11,18,19,20,27,28]
+              if (year === 2026 && month === 1 && febNights.includes(date)){
                   cell.className = "highlighted-nightshift"
               }
-              // dayshifts
-              const febDays = [7,8,9,16,17,18,25,26,27]
-              if (year === 2025 && month === 1 && febDays.includes(date)){
+              // off
+              const febOffs = [3,4,5,12,13,14,21,22,23]
+              if (year === 2026 && month === 1 && febOffs.includes(date)){
                   cell.className = "highlighted-days"
+              }
+              // dayshifts
+              const febDays = [6,7,8,15,16,17,24,25,26]
+              if (year === 2026 && month === 1 && febDays.includes(date)){
+                  cell.className = "highlighted-dayshift"
               }
 /////////////////////////////////////////////////////////////////////////
               // MARS 2025 //31 days
               
               // nightshift 
-              const marchNights = [1,2,9,10,11,18,19,20,27,28,29]
-              if (year === 2025 && month === 2 && marchNights.includes(date)){
-                  cell.className = "highlighted-dayshift"
-              }
-              // off
-              const marchOffs = [3,4,5,12,13,14,21,22,23,30,31] 
-              if (year === 2025 && month === 2 && marchOffs.includes(date)){
+              const marchNights = [1,8,9,10,17,18,19,26,27,28]
+              if (year === 2026 && month === 2 && marchNights.includes(date)){
                   cell.className = "highlighted-nightshift"
               }
-              // dayshifts
-              const marchDays = [6,7,8,15,16,17,24,25,26] // c'est comme si ca saute d'une journee a chaque fois
-              if (year === 2025 && month === 2 && marchDays.includes(date)){
+              // off
+              const marchOffs = [2,3,4,11,12,13,20,21,22,29,30,31] 
+              if (year === 2026 && month === 2 && marchOffs.includes(date)){
                   cell.className = "highlighted-days"
+              }
+              // dayshifts
+              const marchDays = [5,6,7,14,15,16,23,24,25] // c'est comme si ca saute d'une journee a chaque fois
+              if (year === 2026 && month === 2 && marchDays.includes(date)){
+                  cell.className = "highlighted-dayshift"
               }
               
 //////////////////////////////////////////////////////////////
@@ -209,171 +209,171 @@ function showCalendarB(month, year) {
               // AVRIL 2025 //30 days
               
               // nightshift 
-              const aprilNights = [5,6,7,14,15,16,23,24,25]
-              if (year === 2025 && month === 3 && aprilNights.includes(date)){
-                  cell.className = "highlighted-dayshift"
-              }
-              // off
-              const aprilOffs = [1,8,9,10,17,18,19,26,27,28]
-              if (year === 2025 && month === 3 && aprilOffs.includes(date)){
+              const aprilNights = [4,5,6,13,14,15,22,23,24]
+              if (year === 2026 && month === 3 && aprilNights.includes(date)){
                   cell.className = "highlighted-nightshift"
               }
-              // dayshifts
-              const aprilDays = [2,3,4,11,12,13,20,21,22,29,30]
-              if (year === 2025 && month === 3 && aprilDays.includes(date)){
+              // off
+              const aprilOffs = [7,8,9,16,17,18,25,26,27]
+              if (year === 2026 && month === 3 && aprilOffs.includes(date)){
                   cell.className = "highlighted-days"
+              }
+              // dayshifts
+              const aprilDays = [1,2,3,10,11,12,19,20,21,28,29,30]
+              if (year === 2026 && month === 3 && aprilDays.includes(date)){
+                  cell.className = "highlighted-dayshift"
               }
               
 ///////////////////////////////////////////////////
               // MAI 2025 // 31 days
               
               // nightshift 
-              const mayNights = [2,3,4,11,12,13,20,21,22,29,30,31]
-              if (year === 2025 && month === 4 && mayNights.includes(date)){ 
-                  cell.className = "highlighted-dayshift";
+              const mayNights = [1,2,3,10,11,12,19,20,21,28,29,30]
+              if (year === 2026 && month === 4 && mayNights.includes(date)){ 
+                  cell.className = "highlighted-nightshift";
               } 
               
               // offdays
-              const mayOffs = [5,6,7,14,15,16,23,24,25]
-              if (year === 2025 && month === 4 && mayOffs.includes(date)){ 
-                  cell.className = "highlighted-nightshift";
+              const mayOffs = [4,5,6,13,14,15,22,23,24,31]
+              if (year === 2026 && month === 4 && mayOffs.includes(date)){ 
+                  cell.className = "highlighted-days";
               }
               
               // dayshift 
-              const mayDays = [1,8,9,10,17,18,19,26,27,28]
-              if (year === 2025 && month === 4 && mayDays.includes(date)){
-                  cell.className = "highlighted-days";
+              const mayDays = [7,8,9,16,17,18,25,26,27]
+              if (year === 2026 && month === 4 && mayDays.includes(date)){
+                  cell.className = "highlighted-dayshift";
               }
               
 ////////////////////////////////////////////////////
               // JUIN 2025 // 30 days
 
               // nightshift
-              const junNights = [7,8,9,16,17,18,25,26,27]
-              if (year === 2025 && month === 5 && junNights.includes(date)){ 
-                  cell.className = "highlighted-dayshift";
+              const junNights = [6,7,8,15,16,17,24,25,26]
+              if (year === 2026 && month === 5 && junNights.includes(date)){ 
+                  cell.className = "highlighted-nightshift";
               } 
               // offdays
-              const junOffs = [1,2,3,10,11,12,19,20,21,28,29,30]
-              if (year === 2025 && month === 5 && junOffs.includes(date)){ 
-                  cell.className = "highlighted-nightshift";
+              const junOffs = [1,2,9,10,11,18,19,20,27,28,29]
+              if (year === 2026 && month === 5 && junOffs.includes(date)){ 
+                  cell.className = "highlighted-days";
               }
               // dayshift 
-              const junDays = [4,5,6,13,14,15,22,23,24]
-              if (year === 2025 && month === 5 && junDays.includes(date)){
-                  cell.className = "highlighted-days";
+              const junDays = [3,4,5,12,13,14,21,22,23,30]
+              if (year === 2026 && month === 5 && junDays.includes(date)){
+                  cell.className = "highlighted-dayshift";
               }
 
 ////////////////////////////////////////////////////
               // JUILLET 2025 // 31 days
 
               // nightshift
-              const julyNights = [4,5,6,,13,14,15,22,23,24,31]
-              if (year === 2025 && month === 6 && julyNights.includes(date)){ 
-                  cell.className = "highlighted-dayshift";
+              const julyNights = [3,4,5,12,13,14,21,22,23,30,31]
+              if (year === 2026 && month === 6 && julyNights.includes(date)){ 
+                  cell.className = "highlighted-nightshift";
               } 
               // offdays
-              const julyOffs = [7,8,9,16,17,18,25,26,27]
-              if (year === 2025 && month === 6 && julyOffs.includes(date)){ 
-                  cell.className = "highlighted-nightshift";
+              const julyOffs = [6,7,8,15,16,17,24,25,26]
+              if (year === 2026 && month === 6 && julyOffs.includes(date)){ 
+                  cell.className = "highlighted-days";
               }
               // dayshift 
-              const julyDays = [1,2,3,10,11,12,19,20,21,28,29,30]
-              if (year === 2025 && month === 6 && julyDays.includes(date)){
-                  cell.className = "highlighted-days";
+              const julyDays = [1,2,9,10,11,18,19,20,27,28,29]
+              if (year === 2026 && month === 6 && julyDays.includes(date)){
+                  cell.className = "highlighted-dayshift";
               }
 
 ////////////////////////////////////////////////////
               // AOUT 2025 // 31 days
 
               // nightshift
-              const augustNights = [1,2,9,10,11,18,19,20,27,28,29]
-              if (year === 2025 && month === 7 && augustNights.includes(date)){ 
-                  cell.className = "highlighted-dayshift";
+              const augustNights = [1,8,9,10,17,18,19,26,27,28]
+              if (year === 2026 && month === 7 && augustNights.includes(date)){ 
+                  cell.className = "highlighted-nightshift";
               } 
               // offdays
-              const augustOffs = [3,4,5,12,13,14,21,22,23,30,31]
-              if (year === 2025 && month === 7 && augustOffs.includes(date)){ 
-                  cell.className = "highlighted-nightshift";
+              const augustOffs = [2,3,4,11,12,13,20,21,22,29,30,31]
+              if (year === 2026 && month === 7 && augustOffs.includes(date)){ 
+                  cell.className = "highlighted-days";
               }
               // dayshift 
-              const augustDays = [6,7,8,15,16,17,24,25,26]
-              if (year === 2025 && month === 7 && augustDays.includes(date)){
-                  cell.className = "highlighted-days";
+              const augustDays = [5,6,7,14,15,16,23,24,25]
+              if (year === 2026 && month === 7 && augustDays.includes(date)){
+                  cell.className = "highlighted-dayshift";
               }
 
 ////////////////////////////////////////////////////
               // SEPTEMBRE 2025 // 30 days
 
               // nightshift
-              const sepNights = [5,6,7,14,15,16,23,24,25]
-              if (year === 2025 && month === 8 && sepNights.includes(date)){ 
-                  cell.className = "highlighted-dayshift";
+              const sepNights = [4,5,6,13,14,15,22,23,24]
+              if (year === 2026 && month === 8 && sepNights.includes(date)){ 
+                  cell.className = "highlighted-nightshift";
               } 
               // offdays
-              const sepOffs = [1,8,9,10,17,18,19,26,27,28] 
-              if (year === 2025 && month === 8 && sepOffs.includes(date)){ 
-                  cell.className = "highlighted-nightshift";
+              const sepOffs = [7,8,9,16,17,18,25,26,27] 
+              if (year === 2026 && month === 8 && sepOffs.includes(date)){ 
+                  cell.className = "highlighted-days";
               }
               // dayshift 
-              const sepDays = [2,3,4,11,12,13,20,21,22,29,30]
-              if (year === 2025 && month === 8 && sepDays.includes(date)){
-                  cell.className = "highlighted-days";
+              const sepDays = [1,2,3,10,11,12,19,20,21,28,29,30]
+              if (year === 2026 && month === 8 && sepDays.includes(date)){
+                  cell.className = "highlighted-dayshift";
               }
              
 //////////////////////////////////////////////////
               // OCTOBRE 2025 // 31 days
 
               // nightshift
-              const octNights = [2,3,4,11,12,13,20,21,22,29,30,31] // + aka change premier chiffre next time, I'll make these arrayX,arrayY,arrayZ
-              if (year === 2025 && month === 9 && octNights.includes(date)){ 
-                  cell.className = "highlighted-dayshift";
+              const octNights = [1,2,3,10,11,12,19,20,21,28,29,30] // + aka change premier chiffre next time, I'll make these arrayX,arrayY,arrayZ
+              if (year === 2026 && month === 9 && octNights.includes(date)){ 
+                  cell.className = "highlighted-nightshift";
               } 
               // offdays
-              const octOffs = [5,6,7,14,15,16,23,24,25]  //+
-              if (year === 2025 && month === 9 && octOffs.includes(date)){ 
-                  cell.className = "highlighted-nightshift";
+              const octOffs = [4,5,6,13,14,15,22,23,24,31]  //+
+              if (year === 2026 && month === 9 && octOffs.includes(date)){ 
+                  cell.className = "highlighted-days";
               }
               // dayshift 
-              const octDays = [1,8,9,10,17,18,19,26,27,28] //- deuxieme chiffre
-              if (year === 2025 && month === 9 && octDays.includes(date)){
-                  cell.className = "highlighted-days";
+              const octDays = [7,8,9,16,17,18,25,26,27] //- deuxieme chiffre
+              if (year === 2026 && month === 9 && octDays.includes(date)){
+                  cell.className = "highlighted-dayshift";
               }
 ////////////////////////////////////////////////these three different arrays are not actually different, they are one and they shuffle, so how can i make em do that with code and stopping automatically if month ends on 28,29,30 or 31?????
               // NOVEMBRE 2025 // 30 days
 
               // nightshift
-              const novNights = [7,8,9,16,17,18,25,26,27]
-              if (year === 2025 && month === 10 && novNights.includes(date)){ 
-                  cell.className = "highlighted-dayshift";
+              const novNights = [6,7,8,15,16,17,24,25,26]
+              if (year === 2026 && month === 10 && novNights.includes(date)){ 
+                  cell.className = "highlighted-nightshift";
               } 
               // offdays
-              const novOffs = [1,2,3,10,11,12,19,20,21,28,29,30]
-              if (year === 2025 && month === 10 && novOffs.includes(date)){ 
-                  cell.className = "highlighted-nightshift";
+              const novOffs = [1,2,9,10,11,18,19,20,27,28,29]
+              if (year === 2026 && month === 10 && novOffs.includes(date)){ 
+                  cell.className = "highlighted-days";
               }
               // dayshift 
-              const novDays = [4,5,6,13,14,15,22,23,24]
-              if (year === 2025 && month === 10 && novDays.includes(date)){
-                  cell.className = "highlighted-days";
+              const novDays = [3,4,5,12,13,14,21,22,23,30]
+              if (year === 2026 && month === 10 && novDays.includes(date)){
+                  cell.className = "highlighted-dayshift";
               }
 ////////////////////////////////////////////////// I'm getting closer to solving this. find repetitive patterns, pull them into a generic code one liner or two liners. 
               // DECEMBRE 2025 // 31 days
 
               // nightshift
-              const decNights = [4,5,6,13,14,15,22,23,24,31] 
-              if (year === 2025 && month === 11 && decNights.includes(date)){ 
-                  cell.className = "highlighted-dayshift";
+              const decNights = [3,4,5,12,13,14,21,22,23,30,31] 
+              if (year === 2026 && month === 11 && decNights.includes(date)){ 
+                  cell.className = "highlighted-nightshift";
               } 
               // offdays
-              const decOffs = [7,8,9,16,17,18,25,26,27]
-              if (year === 2025 && month === 11 && decOffs.includes(date)){ 
-                  cell.className = "highlighted-nightshift";
+              const decOffs = [6,7,8,15,16,17,24,25,26]
+              if (year === 2026 && month === 11 && decOffs.includes(date)){ 
+                  cell.className = "highlighted-days";
               }
               // dayshift 
-              const decDays = [1,2,3,10,11,12,19,20,21,28,29,30]
-              if (year === 2025 && month === 11 && decDays.includes(date)){
-                  cell.className = "highlighted-days";
+              const decDays = [1,2,9,10,11,18,19,20,27,28,29]
+              if (year === 2026 && month === 11 && decDays.includes(date)){
+                  cell.className = "highlighted-dayshift";
               }
               
              
